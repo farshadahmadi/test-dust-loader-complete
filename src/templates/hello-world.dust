@@ -1,3 +1,2 @@
 <p>Hello {name}!</p>
-<!--{-> "partial-template" /}-->
 {> "partial-template" /}

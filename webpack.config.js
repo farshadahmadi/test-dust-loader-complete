@@ -1,5 +1,4 @@
 const path = require('path');
-const webpack = require("webpack");
 
 module.exports = {
   context: path.join(__dirname,"src"),
@@ -10,9 +9,6 @@ module.exports = {
     path: path.join(__dirname,"dist"),
     filename: '[name].bundle.js',
     publicPath: 'http://localhost:8080/dist/'
-  },
-  resolveLoader: {
-    modules: [path.join(__dirname, 'node_modules')]
   },
   resolve: {
     modules: [path.join(__dirname, 'node_modules')],
@@ -36,11 +32,5 @@ module.exports = {
         ]
       }
     ]
-  }/*,
-  plugins: [
-    new webpack.ProvidePlugin({
-      $: "jquery",
-      jQuery: "jquery"
-    })
-  ]*/
+  }
 };
