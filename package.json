@@ -1,0 +1,17 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "description": "dust-loader-complete test",
+  "scripts": {
+    "start": "./node_modules/.bin/webpack-dev-server  --config webpack.config.js"
+  },
+  "author": "Farshad",
+  "devDependencies": {
+    "dust-loader-complete": "^3.0.1",
+    "dustjs-helpers": "^1.7.4",
+    "dustjs-linkedin": "^2.7.5",
+    "jquery": "^3.3.1",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.7"
+  }
+}
