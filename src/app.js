@@ -1,5 +1,6 @@
 
-var helloWorldTemplate = require("./templates/hello-world.dust");
+//var helloWorldTemplate = require("./templates/hello-world.dust");
+var helloWorldTemplate = require("hello-world");
 
 var dust = require("dustjs");
 var $ = require("jquery");
